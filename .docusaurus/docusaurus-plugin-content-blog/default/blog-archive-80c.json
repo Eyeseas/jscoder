@@ -1,0 +1,33 @@
+{
+  "blogPosts": [
+    {
+      "id": "/cloudreve使用acme.sh配置https",
+      "metadata": {
+        "permalink": "/blog/cloudreve使用acme.sh配置https",
+        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/cloudreve使用acme.sh配置https/index.mdx",
+        "source": "@site/blog\\cloudreve使用acme.sh配置https\\index.mdx",
+        "title": "cloudreve 使用 acme.sh 配置https证书",
+        "description": "",
+        "date": "2022-07-12T15:18:21.800Z",
+        "formattedDate": "2022年7月12日",
+        "tags": [],
+        "readingTime": 0.29,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Eyeseas kong",
+            "title": "FE Learner",
+            "url": "https://github.com/konglinghu777",
+            "imageURL": "https://avatars.githubusercontent.com/u/18658548?v=4",
+            "key": "kong"
+          }
+        ],
+        "frontMatter": {
+          "title": "cloudreve 使用 acme.sh 配置https证书",
+          "authors": "kong"
+        }
+      },
+      "content": "import Image from '@theme/IdealImage';\r\n\r\n## 查看acme证书日期\r\n\r\n```shell\r\nacme.sh list\r\n```\r\n\r\n<Image img={require('./images/Snipaste_2022-07-12_23-23-41.png')} />\r\n\r\n## 查看已生成的证书日期\r\n\r\n```shell\r\nopenssl x509 -in cert.pem -noout -dates\r\n```\r\n<Image img={require('./images/Snipaste_2022-07-12_23-38-35.png')} />\r\n\r\n## 重新导出证书\r\n\r\n```shell\r\nacme.sh --install-cert -d pi.ueyeseas.com --key-file ./key.pem --fullchain-file ./cert.pem\r\n```"
+    }
+  ]
+}

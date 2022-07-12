@@ -1,0 +1,27 @@
+---
+title: cloudreve 使用 acme.sh 配置https证书
+authors: kong
+---
+import Image from '@theme/IdealImage';
+
+## 查看acme证书日期
+
+```shell
+acme.sh list
+```
+
+<Image img={require('./images/Snipaste_2022-07-12_23-23-41.png')} />
+
+## 查看已生成的证书日期
+
+```shell
+openssl x509 -in cert.pem -noout -dates
+```
+<Image img={require('./images/Snipaste_2022-07-12_23-38-35.png')} />
+
+## 重新导出证书
+
+```shell
+acme.sh --install-cert -d pi.ueyeseas.com --key-file ./key.pem --fullchain-file ./cert.pem
+```
+

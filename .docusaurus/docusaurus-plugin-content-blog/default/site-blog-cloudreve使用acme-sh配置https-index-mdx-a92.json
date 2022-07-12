@@ -1,0 +1,25 @@
+{
+  "permalink": "/blog/cloudreve使用acme.sh配置https",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/cloudreve使用acme.sh配置https/index.mdx",
+  "source": "@site/blog\\cloudreve使用acme.sh配置https\\index.mdx",
+  "title": "cloudreve 使用 acme.sh 配置https证书",
+  "description": "",
+  "date": "2022-07-12T15:18:21.800Z",
+  "formattedDate": "2022年7月12日",
+  "tags": [],
+  "readingTime": 0.29,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Eyeseas kong",
+      "title": "FE Learner",
+      "url": "https://github.com/konglinghu777",
+      "imageURL": "https://avatars.githubusercontent.com/u/18658548?v=4",
+      "key": "kong"
+    }
+  ],
+  "frontMatter": {
+    "title": "cloudreve 使用 acme.sh 配置https证书",
+    "authors": "kong"
+  }
+}

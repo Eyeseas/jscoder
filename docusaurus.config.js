@@ -23,9 +23,21 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
   },
+  plugins: [
+    [
+      '@docusaurus/plugin-ideal-image',
+      {
+        quality: 70,
+        max: 1030, // 最大缩放图片尺寸。
+        min: 640, // 最小缩放图片尺寸。 如果原始值比这还低，会使用原图尺寸。
+        steps: 2, // 在 min 和 max 之间最多生成的图片数量（包含两端点）
+        disableInDev: false,
+      },
+    ],
+  ],
 
   presets: [
     [
