@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '535'),
+    component: ComponentCreator('/blog', '674'),
     exact: true
   },
   {
@@ -50,6 +50,16 @@ export default [
   {
     path: '/blog/cloudreve使用acme.sh配置https',
     component: ComponentCreator('/blog/cloudreve使用acme.sh配置https', 'dbc'),
+    exact: true
+  },
+  {
+    path: '/blog/yarn更新包',
+    component: ComponentCreator('/blog/yarn更新包', '0c8'),
+    exact: true
+  },
+  {
+    path: '/KFC',
+    component: ComponentCreator('/KFC', '428'),
     exact: true
   },
   {

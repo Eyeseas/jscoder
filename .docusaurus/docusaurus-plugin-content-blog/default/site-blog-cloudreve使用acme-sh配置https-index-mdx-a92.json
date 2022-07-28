@@ -4,7 +4,7 @@
   "source": "@site/blog\\cloudreve使用acme.sh配置https\\index.mdx",
   "title": "cloudreve 使用 acme.sh 配置https证书",
   "description": "",
-  "date": "2022-07-12T15:18:21.800Z",
+  "date": "2022-07-12T15:42:30.000Z",
   "formattedDate": "2022年7月12日",
   "tags": [],
   "readingTime": 0.29,
@@ -21,5 +21,9 @@
   "frontMatter": {
     "title": "cloudreve 使用 acme.sh 配置https证书",
     "authors": "kong"
+  },
+  "prevItem": {
+    "title": "yarn更新所有依赖包",
+    "permalink": "/blog/yarn更新包"
   }
 }

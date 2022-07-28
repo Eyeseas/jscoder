@@ -42,13 +42,16 @@
       "plugin": "plugin---docusaurus-debug-6-bf-8d5"
     }
   },
-  "/blog-535": {
+  "/blog-674": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-07-d-555"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogbf-9-6e3"
+      },
       {
         "content": "content---blogb-09-084"
       }
@@ -70,10 +73,25 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-cloudreve使用acme-sh配置httpsa-92-1dd"
   },
+  "/blog/yarn更新包-0c8": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---blog-07-d-555"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-yarn更新包-9-f-2-61a"
+  },
+  "/KFC-428": {
+    "__comp": "__comp---site-src-pages-kfc-tsx-4-c-5-aa7",
+    "__context": {
+      "plugin": "plugin---kfc-9-ea-265"
+    },
+    "config": "config---kfc-5-e-9-22f"
+  },
   "/markdown-page-8d1": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---markdown-page-9-ea-2f2"
+      "plugin": "plugin---kfc-9-ea-265"
     },
     "content": "content---markdown-page-393-028"
   },
@@ -131,8 +149,8 @@
   "/-671": {
     "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
     "__context": {
-      "plugin": "plugin---markdown-page-9-ea-2f2"
+      "plugin": "plugin---kfc-9-ea-265"
     },
-    "config": "config---5-e-9-4f3"
+    "config": "config---kfc-5-e-9-22f"
   }
 }

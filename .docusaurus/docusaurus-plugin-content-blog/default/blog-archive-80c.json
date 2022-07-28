@@ -1,6 +1,39 @@
 {
   "blogPosts": [
     {
+      "id": "/yarn更新包",
+      "metadata": {
+        "permalink": "/blog/yarn更新包",
+        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/yarn更新包.mdx",
+        "source": "@site/blog\\yarn更新包.mdx",
+        "title": "yarn更新所有依赖包",
+        "description": "方案一",
+        "date": "2022-07-13T15:28:55.000Z",
+        "formattedDate": "2022年7月13日",
+        "tags": [],
+        "readingTime": 0.08,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Eyeseas kong",
+            "title": "FE Learner",
+            "url": "https://github.com/konglinghu777",
+            "imageURL": "https://avatars.githubusercontent.com/u/18658548?v=4",
+            "key": "kong"
+          }
+        ],
+        "frontMatter": {
+          "title": "yarn更新所有依赖包",
+          "authors": "kong"
+        },
+        "nextItem": {
+          "title": "cloudreve 使用 acme.sh 配置https证书",
+          "permalink": "/blog/cloudreve使用acme.sh配置https"
+        }
+      },
+      "content": "## 方案一\r\n\r\n```shell\r\nyarn upgrade-interactive --latest\r\n```\r\n按`a`全选,`i`单选"
+    },
+    {
       "id": "/cloudreve使用acme.sh配置https",
       "metadata": {
         "permalink": "/blog/cloudreve使用acme.sh配置https",
@@ -8,7 +41,7 @@
         "source": "@site/blog\\cloudreve使用acme.sh配置https\\index.mdx",
         "title": "cloudreve 使用 acme.sh 配置https证书",
         "description": "",
-        "date": "2022-07-12T15:18:21.800Z",
+        "date": "2022-07-12T15:42:30.000Z",
         "formattedDate": "2022年7月12日",
         "tags": [],
         "readingTime": 0.29,
@@ -25,6 +58,10 @@
         "frontMatter": {
           "title": "cloudreve 使用 acme.sh 配置https证书",
           "authors": "kong"
+        },
+        "prevItem": {
+          "title": "yarn更新所有依赖包",
+          "permalink": "/blog/yarn更新包"
         }
       },
       "content": "import Image from '@theme/IdealImage';\r\n\r\n## 查看acme证书日期\r\n\r\n```shell\r\nacme.sh list\r\n```\r\n\r\n<Image img={require('./images/Snipaste_2022-07-12_23-23-41.png')} />\r\n\r\n## 查看已生成的证书日期\r\n\r\n```shell\r\nopenssl x509 -in cert.pem -noout -dates\r\n```\r\n<Image img={require('./images/Snipaste_2022-07-12_23-38-35.png')} />\r\n\r\n## 重新导出证书\r\n\r\n```shell\r\nacme.sh --install-cert -d pi.ueyeseas.com --key-file ./key.pem --fullchain-file ./cert.pem\r\n```"

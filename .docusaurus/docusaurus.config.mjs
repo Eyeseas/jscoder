@@ -31,7 +31,9 @@ export default {
         "steps": 2,
         "disableInDev": false
       }
-    ]
+    ],
+    null,
+    null
   ],
   "presets": [
     [
@@ -68,6 +70,11 @@ export default {
         {
           "to": "/blog",
           "label": "Blog",
+          "position": "left"
+        },
+        {
+          "to": "/kfc",
+          "label": "KFC",
           "position": "left"
         },
         {

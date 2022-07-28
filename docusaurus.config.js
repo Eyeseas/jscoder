@@ -37,6 +37,36 @@ const config = {
         disableInDev: false,
       },
     ],
+    async function myPlugin(context, options) {
+      return {
+        name: "docusaurus-tailwindcss",
+        configurePostCss(postcssOptions) {
+          // Appends TailwindCSS and AutoPrefixer.
+          postcssOptions.plugins.push(require("tailwindcss"));
+          postcssOptions.plugins.push(require("autoprefixer"));
+          return postcssOptions;
+        },
+      };
+    },
+    async function webpackProxy(context, options) {
+      return {
+        name: "custom-webpack-plugin",
+        configureWebpack(config, isServer, utils) {
+          return {
+            mergeStrategy: { "devServer.proxy": "replace" },
+            devServer: {
+              proxy: {
+                "/kfc-api": {
+                  target: "https://kfc-crazy-thursday.vercel.app",
+                  changeOrigin: true,
+                  pathRewrite: {'^/kfc-api' : ''}
+                },
+              },
+            },
+          };
+        },
+      };
+    }
   ],
 
   presets: [
@@ -82,6 +112,7 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to:"/kfc",label: "KFC", position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',

@@ -2,6 +2,10 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "yarn更新所有依赖包",
+      "permalink": "/blog/yarn更新包"
+    },
+    {
       "title": "cloudreve 使用 acme.sh 配置https证书",
       "permalink": "/blog/cloudreve使用acme.sh配置https"
     }
