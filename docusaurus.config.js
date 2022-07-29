@@ -13,6 +13,10 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
+  customFields: {
+    // 把你的自定义环境放在这里
+    isDev: process.env.NODE_ENV === 'development',
+  },
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.

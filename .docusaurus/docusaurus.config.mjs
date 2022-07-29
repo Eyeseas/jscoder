@@ -11,6 +11,9 @@ export default {
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
+  "customFields": {
+    "isDev": true
+  },
   "organizationName": "facebook",
   "projectName": "docusaurus",
   "i18n": {
@@ -357,7 +360,6 @@ export default {
   "staticDirectories": [
     "static"
   ],
-  "customFields": {},
   "themes": [],
   "scripts": [],
   "stylesheets": [],

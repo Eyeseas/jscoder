@@ -2,10 +2,13 @@ import React, {useEffect} from "react";
 import Layout from "@theme/Layout";
 import {useRequest} from "ahooks";
 import {Button, Spin} from "antd";
-
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
 export default function KFC(){
-
+    const {
+        siteConfig: {customFields},
+    } = useDocusaurusContext();
+    const api = customFields.isDev? "/kfc-api/api/index":"https://kfc-crazy-thursday.vercel.app/api/index";
     const request = ()=>{
         return fetch("/kfc-api/api/index").then(response => {
             return response.text();
