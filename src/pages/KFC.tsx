@@ -10,7 +10,7 @@ export default function KFC(){
     } = useDocusaurusContext();
     const api = customFields.isDev? "/kfc-api/api/index":"https://kfc-crazy-thursday.vercel.app/api/index";
     const request = ()=>{
-        return fetch("/kfc-api/api/index").then(response => {
+        return fetch(api).then(response => {
             return response.text();
         })
     };
