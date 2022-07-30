@@ -23,7 +23,7 @@ export default function KFC(){
     return (
         <Layout title="Hello" description="Hello React Page">
             <div className={'container mx-auto'}>
-                <div className={`bg-slate-100 rounded-xl p-8 dark:bg-slate-800 mb-10`}>
+                <div className={`bg-slate-100 rounded-xl p-8 dark:bg-slate-800 mb-10 dark:text-white`}>
                     {
                         loading ? <Spin size="large" /> : <>{ data }</>
                     }

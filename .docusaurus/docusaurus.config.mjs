@@ -12,7 +12,7 @@ export default {
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
   "customFields": {
-    "isDev": false
+    "isDev": true
   },
   "organizationName": "facebook",
   "projectName": "docusaurus",
