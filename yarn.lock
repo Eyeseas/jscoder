@@ -130,6 +130,34 @@
     "@algolia/logger-common" "4.13.1"
     "@algolia/requester-common" "4.13.1"
 
+"@alicloud/fetcher-fetch@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@alicloud/fetcher-fetch/-/fetcher-fetch-1.5.0.tgz#fae77d26a0dd7d3aa3190593e4a82bb7afc5fc98"
+  integrity sha512-IQ0bibtF0A4O49mjEpdyMl0k6uFhHxU60QJb5We3u37pK1K49ii1aWGdNinnCWjWQS20KKDAQciQfcB0zDI6lA==
+  dependencies:
+    unfetch "^4.2.0"
+
+"@alicloud/fetcher-jsonp@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@alicloud/fetcher-jsonp/-/fetcher-jsonp-1.4.0.tgz#e43e98724c7f7f4081df8fa73669cb9c9ac8cdbe"
+  integrity sha512-iTs5xFeVySAMqw2gS0aFnGjUn2BxD7N0af9+gOxFker/wp4EaLQdUgVQiOqTAOxLlDBay/NZvXi49JiUfpRNtw==
+
+"@alicloud/fetcher@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@alicloud/fetcher/-/fetcher-1.6.0.tgz#791d2f435b4db5e50b0577af3a81890db1b72b4e"
+  integrity sha512-ixmiUYcSdXJ9sxDfR0F61M6qkMFCrt1UhEo19vZZG9J4aTJ1II7DF69932uhLx58soxswG7F2A/oOCdphOyDGg==
+  dependencies:
+    "@alicloud/fetcher-fetch" "^1.5.0"
+    "@alicloud/fetcher-jsonp" "^1.4.0"
+    "@alicloud/json-stringify-ordered" "^1.3.0"
+    lodash "^4.17.21"
+    qs "^6.11.0"
+
+"@alicloud/json-stringify-ordered@^1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@alicloud/json-stringify-ordered/-/json-stringify-ordered-1.3.0.tgz#758c887d77f71f10d9e6cb2c333ea113e6856d3b"
+  integrity sha512-qx+ixdIQFeM8ZQltEYmMHxCq9B8FTjNpIdfkEawXLEjNEayCLcGaG3PNNJHV/V8OCwfGqEGgzSWYu7GgkQOlBQ==
+
 "@ampproject/remapping@^2.1.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@ampproject/remapping/-/remapping-2.2.0.tgz#56c133824780de3174aed5ab6834f3026790154d"
@@ -4052,6 +4080,11 @@ feed@^4.2.2:
   dependencies:
     xml-js "^1.6.11"
 
+fetch-jsonp@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/fetch-jsonp/-/fetch-jsonp-1.2.1.tgz#a3ea630a992ae594cfbf5676e7f5fe4d2f8f03aa"
+  integrity sha512-5UwejksxssYwlwl/9OhEQU+OrVaxdChOQntpJO/GUw6NpfPS6fd08fPvbNOq0Ym6hxfLWD6cGN0Ln/V/hWcluw==
+
 file-loader@^6.2.0:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/file-loader/-/file-loader-6.2.0.tgz#baef7cf8e1840df325e4390b4484879480eebe4d"
@@ -6278,6 +6311,13 @@ qs@6.10.3:
   dependencies:
     side-channel "^1.0.4"
 
+qs@^6.11.0:
+  version "6.11.0"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.11.0.tgz#fd0d963446f7a65e1367e01abd85429453f0c37a"
+  integrity sha512-MvjoMCJwEarSbUYk5O+nmoSzSutSsTwF85zcHPQ9OrlFoZOYIjaqBAJIqIXjptyD5vThxGq52Xu/MaJzRkIk4Q==
+  dependencies:
+    side-channel "^1.0.4"
+
 queue-microtask@^1.2.2:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
@@ -7909,6 +7949,11 @@ ua-parser-js@^0.7.30:
   version "0.7.31"
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.31.tgz#649a656b191dffab4f21d5e053e27ca17cbff5c6"
   integrity sha512-qLK/Xe9E2uzmYI3qLeOmI0tEOt+TBBQyUIAh4aAgU05FVYzeZrKUdkAZfBNVGRaHVgV0TDkdEngJSw/SyQchkQ==
+
+unfetch@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/unfetch/-/unfetch-4.2.0.tgz#7e21b0ef7d363d8d9af0fb929a5555f6ef97a3be"
+  integrity sha512-F9p7yYCn6cIW9El1zi0HI6vqpeIvBsr3dSuRO6Xuppb1u5rXpCPmMvLSyECLhybr9isec8Ohl0hPekMVrEinDA==
 
 unherit@^1.0.4:
   version "1.1.3"
