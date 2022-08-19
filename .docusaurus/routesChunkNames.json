@@ -42,13 +42,16 @@
       "plugin": "plugin---docusaurus-debug-6-bf-8d5"
     }
   },
-  "/blog-674": {
+  "/blog-240": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-07-d-555"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogc-17-d3c"
+      },
       {
         "content": "content---blogbf-9-6e3"
       },
@@ -72,6 +75,14 @@
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-cloudreve使用acme-sh配置httpsa-92-1dd"
+  },
+  "/blog/openwrt-resolve-431": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---blog-07-d-555"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-openwrt-resolve-698-cb3"
   },
   "/blog/yarn更新包-0c8": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",

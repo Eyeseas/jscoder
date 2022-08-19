@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '674'),
+    component: ComponentCreator('/blog', '240'),
     exact: true
   },
   {
@@ -50,6 +50,11 @@ export default [
   {
     path: '/blog/cloudreve使用acme.sh配置https',
     component: ComponentCreator('/blog/cloudreve使用acme.sh配置https', 'dbc'),
+    exact: true
+  },
+  {
+    path: '/blog/openwrt-resolve',
+    component: ComponentCreator('/blog/openwrt-resolve', '431'),
     exact: true
   },
   {

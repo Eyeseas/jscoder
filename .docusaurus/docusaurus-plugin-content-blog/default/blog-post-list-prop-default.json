@@ -2,6 +2,10 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "openwrt 常见问题解决方案",
+      "permalink": "/blog/openwrt-resolve"
+    },
+    {
       "title": "yarn更新所有依赖包",
       "permalink": "/blog/yarn更新包"
     },

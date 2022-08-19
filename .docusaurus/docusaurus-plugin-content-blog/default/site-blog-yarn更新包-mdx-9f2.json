@@ -22,6 +22,10 @@
     "title": "yarn更新所有依赖包",
     "authors": "kong"
   },
+  "prevItem": {
+    "title": "openwrt 常见问题解决方案",
+    "permalink": "/blog/openwrt-resolve"
+  },
   "nextItem": {
     "title": "cloudreve 使用 acme.sh 配置https证书",
     "permalink": "/blog/cloudreve使用acme.sh配置https"
